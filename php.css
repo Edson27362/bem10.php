@@ -1,0 +1,11 @@
+body {
+    background: linear-gradient(to right, #add8e6, #b2d8d8, #c1e2e2, #d3f3f3, #e6f8f8, #f5fbff, #ffffff);
+  }
+
+echo {
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+}

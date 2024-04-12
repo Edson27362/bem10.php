@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro dos Dados do Cliente</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        .container {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h3>Cadastro dos Dados do Cliente</h3>
+    </header>
+    <main>
+        <div class="container">
+            <form name="funcionario" method="post" action="dinheiro.php">
+                <p>
+                    <label for="codigo">Código:</label>
+                    <input type="text" name="codigo" id="codigo" size="30" maxlength="40" required>
+                </p>
+                <p>
+                    <label for="nome_cliente">Nome do Cliente</label>
+                    <input type="text" name="nome_cliente" id="nome_cliente" size="30" maxlength="40" required>
+                </p>
+                <p>
+                    <label for="uf">UF:</label>
+                    <input type="text" name="uf" id="uf" size="2" maxlength="2" required>
+                </p>
+                <p>
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" name="cidade" id="cidade" size="30" maxlength="40" required>
+                </p>
+                <p>
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" size="30" maxlength="40" required>
+                </p>
+                <p>
+                    <label for="cpf">CPF:</label>
+                    <input type="text" name="cpf" id="cpf" size="14" maxlength="14" required>
+                </p>
+                <p>
+                    <label for="valor_despesa">Valor da Despesa:</label>
+                    <input type="number" name="valor_despesa" id="valor_despesa" size="20" maxlength="20" required>
+                </p>
+                <p>
+                    <label for="descricao">Descrição:</label>
+                    <textarea name="descricao" id="descricao" rows="4" cols="50" required></textarea>
+                </p>
+                <p>
+                    <input type="submit" name="calcular" value="Calcular" style="background-color: red; color: white;">
+                </p>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
